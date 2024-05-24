@@ -1,0 +1,183 @@
+.menu{
+  display: block;
+  height: auto;
+  width:auto;
+  max-height: auto;
+}
+.website-img{
+  display:block;
+  height: 260px;
+  width: auto;
+}
+.username{
+  color: #543310
+}
+.cups,.friends,.inside{
+  height: 250px;
+  width:250px;
+  max-height: 250px;
+  image-resolution:inherit;
+  margin-right: 10px;
+  margin-left: 10px;
+  image-rendering: auto;
+}
+
+
+p, h2 ,li, h3, h4{
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  opacity: 1;
+}
+
+.coffee-shop{
+  height: 300px;
+  width:auto;
+  max-height: 300px;
+  background-image: url(img/coffee-shop.jpg);
+  background-color: #ffffff;
+  background-position: center;
+  background-size: cover;
+  display: block;
+}
+
+ul, li{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.menu-heading{
+  margin-top: 100px;
+}
+
+.menu-1, .menu-2{
+  display: block;
+  text-align: center;
+}
+
+.dessert, .snacks, .cold-drinks, .hot-drinks{
+  display: inline-block;
+  background-color: #f8f4e1;
+  vertical-align: top;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+.item, .price{
+  display: inline-block;
+}
+
+.price{
+  text-align: right;
+}
+
+.item{
+  text-align: left;
+}
+
+.contact{
+  text-align: center;
+}
+h4{
+  color:#af8f6f;
+  font-family: Poetsen One;
+  font-size: 25px;
+}
+p{
+  font-family:Poetsen One;
+  font-weight: 200;
+  color: #74512d;
+}
+.days{
+  font-size: 18px;
+  color:#543310;
+}
+li, h3{
+  list-style-type:none;
+  font-family: Poetsen One;
+  
+}
+h3{
+  color: #74512d;
+  text-align: center;
+}
+
+li{
+  color: #af8f6f;
+}
+
+h2{
+  font-family: Poetsen One;
+  color: #543310;
+  text-align: center;
+}
+
+.motto{
+  font-family: dancing script;
+  font-size: 30px;
+  text-align: center;
+}
+
+.background-div{
+  height: 300px;
+  width:auto;
+  max-height: 300px;
+  background-image: url(img/background.jpg);
+  background-color: #ffffff;
+  background-position: center;
+  background-size: cover;
+  display:inline-flexbox;
+}
+
+.sidebar {
+  opacity: 0.9;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f8f4e1;
+  position:fixed;
+  height: 300px;
+  overflow:auto;
+  font-family: Poetsen One;
+}
+
+.sidebar a {
+  display: block;
+  color: #543310;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.sidebar a.active {
+  background-color: #af8f6f;
+  color: #f8f4e1;
+  transition-duration: 10ms;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #af8f6f;
+  color: #f8f4e1;
+  transition-duration: 10ms;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 200px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: fixed;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
