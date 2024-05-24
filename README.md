@@ -6,6 +6,5 @@ All images were sourced from pexels.com
 
 All written content is my own.
 
----
 **created by Lezaan Alberts**
 ---
